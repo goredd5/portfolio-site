@@ -32,45 +32,89 @@ export default function Home() {
       {/* Skills Section */}
       <section className="py-20 bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">
+          <h2 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-16">
             CORE SKILLS & EXPERTISE
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">🎯</div>
-              <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-3">
-                Product Strategy
-              </h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                Developing product vision, strategy and tactics, roadmapping, discovery, product lifecycle management, product led growth
-              </p>
+
+          <div className="space-y-12">
+            {/* Product Strategy - Title Left */}
+            <div
+              className="relative p-8 rounded-lg overflow-hidden min-h-[300px] flex items-center"
+              style={{
+                backgroundImage: 'url(/images/skills/product-strategy.jpg)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            >
+              <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/40"></div>
+              <div className="relative z-10 max-w-2xl">
+                <h3 className="text-3xl font-bold text-white mb-4">
+                  Product Strategy
+                </h3>
+                <p className="text-lg text-gray-100">
+                  Developing product vision, strategy and tactics, roadmapping, discovery, product lifecycle management, product led growth
+                </p>
+              </div>
             </div>
-            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">⚙️</div>
-              <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-3">
-                Technical
-              </h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                APIs, testing, QA automation, release management, Linux/Unix, front & backend testing
-              </p>
+
+            {/* Technical - Title Right */}
+            <div
+              className="relative p-8 rounded-lg overflow-hidden min-h-[300px] flex items-center justify-end"
+              style={{
+                backgroundImage: 'url(/images/skills/technical.jpg)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            >
+              <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/70 to-black/40"></div>
+              <div className="relative z-10 max-w-2xl text-right">
+                <h3 className="text-3xl font-bold text-white mb-4">
+                  Technical
+                </h3>
+                <p className="text-lg text-gray-100">
+                  APIs, testing, QA automation, release management, Linux/Unix, front & backend testing
+                </p>
+              </div>
             </div>
-            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">📊</div>
-              <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-3">
-                Data & Analytics
-              </h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                SQL, A/B testing, behavioral event tracking, attribution, database design
-              </p>
+
+            {/* Data & Analytics - Title Left */}
+            <div
+              className="relative p-8 rounded-lg overflow-hidden min-h-[300px] flex items-center"
+              style={{
+                backgroundImage: 'url(/images/skills/data-analytics.jpg)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            >
+              <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/40"></div>
+              <div className="relative z-10 max-w-2xl">
+                <h3 className="text-3xl font-bold text-white mb-4">
+                  Data & Analytics
+                </h3>
+                <p className="text-lg text-gray-100">
+                  SQL, A/B testing, behavioral event tracking, attribution, database design
+                </p>
+              </div>
             </div>
-            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">🛠️</div>
-              <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-3">
-                Tools & Platforms
-              </h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                Jira, Linear, Contentful, Shopify, Stripe, Twillio, Algolia, Rudderstack, Klaviyo, GA4, Meta Business Suite, Hotjar, Mixpanel, Posthog, Postman, Retool, ChatPRD, Replit
-              </p>
+
+            {/* Tools & Platforms - Title Right */}
+            <div
+              className="relative p-8 rounded-lg overflow-hidden min-h-[300px] flex items-center justify-end"
+              style={{
+                backgroundImage: 'url(/images/skills/tools-platforms.jpg)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            >
+              <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/70 to-black/40"></div>
+              <div className="relative z-10 max-w-2xl text-right">
+                <h3 className="text-3xl font-bold text-white mb-4">
+                  Tools & Platforms
+                </h3>
+                <p className="text-lg text-gray-100">
+                  Jira, Linear, Contentful, Shopify, Stripe, Twillio, Algolia, Rudderstack, Klaviyo, GA4, Meta Business Suite, Hotjar, Mixpanel, Posthog, Postman, Retool, ChatPRD, Replit
+                </p>
+              </div>
             </div>
           </div>
         </div>
