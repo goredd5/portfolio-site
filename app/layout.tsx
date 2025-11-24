@@ -17,6 +17,24 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "My Portfolio",
   description: "Welcome to my portfolio website showcasing my projects and skills",
+  icons: {
+    icon: "/favicon.svg",
+  },
+  openGraph: {
+    title: "My Portfolio",
+    description: "Welcome to my portfolio website showcasing my projects and skills",
+    url: "https://yourportfolio.com",
+    siteName: "My Portfolio",
+    images: [
+      {
+        url: "/images/hero/199820010016.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Portfolio Hero Image",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
