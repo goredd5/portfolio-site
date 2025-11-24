@@ -15,16 +15,16 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Welcome to my portfolio website showcasing my projects and skills",
+  title: "mhettesh.com",
+  description: "Experienced product leader with 10+ years driving startup growth through..",
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
-    title: "My Portfolio",
-    description: "Welcome to my portfolio website showcasing my projects and skills",
-    url: "https://yourportfolio.com",
-    siteName: "My Portfolio",
+    title: "mhettesh.com",
+    description: "Experienced product leader with 10+ years driving startup growth through..",
+    url: "https://mhettesh.com",
+    siteName: "mhettesh.com",
     images: [
       {
         url: "/og-image.png",
