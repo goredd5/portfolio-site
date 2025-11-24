@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "My Portfolio",
     images: [
       {
-        url: "/images/hero/199820010016.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Portfolio Hero Image",
+        alt: "thumbnail Image",
       },
     ],
     type: "website",
