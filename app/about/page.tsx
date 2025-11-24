@@ -246,10 +246,10 @@ export default function About() {
         {/* Get In Touch */}
         <section className="mt-16 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-700 rounded-lg p-8">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            Let's Work Together
+            Let&apos;s Work Together
           </h2>
           <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-            Whether you're looking for strategic product leadership, technical expertise, or someone to help scale your organization, I'd love to hear about your vision. Let's connect and explore how we can create impact together.
+            Whether you&apos;re looking for strategic product leadership, technical expertise, or someone to help scale your organization, I&apos;d love to hear about your vision. Let&apos;s connect and explore how we can create impact together.
           </p>
           <button
             onClick={() => setIsContactOpen(true)}
