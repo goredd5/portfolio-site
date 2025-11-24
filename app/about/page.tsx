@@ -1,11 +1,11 @@
-import { Metadata } from 'next';
+'use client';
 
-export const metadata: Metadata = {
-  title: 'About | My Portfolio',
-  description: 'Learn more about my background, skills, and experience',
-};
+import { useState } from 'react';
+import ContactModal from '@/components/ContactModal';
 
 export default function About() {
+  const [isContactOpen, setIsContactOpen] = useState(false);
+
   return (
     <main className="min-h-screen bg-white dark:bg-gray-900">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -238,11 +238,29 @@ export default function About() {
               
             </div>
 
-           
+
           </div>
-          
+
+        </section>
+
+        {/* Get In Touch */}
+        <section className="mt-16 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-700 rounded-lg p-8">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            Let's Work Together
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+            Whether you're looking for strategic product leadership, technical expertise, or someone to help scale your organization, I'd love to hear about your vision. Let's connect and explore how we can create impact together.
+          </p>
+          <button
+            onClick={() => setIsContactOpen(true)}
+            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors"
+          >
+            Get In Touch
+          </button>
         </section>
       </div>
+
+      <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
     </main>
   );
 }
