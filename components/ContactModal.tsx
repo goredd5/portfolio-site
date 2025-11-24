@@ -89,7 +89,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               Get In Touch
             </h2>
             <p className="mt-1 text-gray-600 dark:text-gray-400">
-              I'd love to hear from you
+              I&apos;d love to hear from you
             </p>
           </div>
 

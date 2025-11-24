@@ -26,7 +26,7 @@ export default function About() {
               Hello! 👋
             </h2>
             <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-              I'm a New Jersey native and Rutgers grad who started my career in government, where I quickly became frustrated by the barriers to creating meaningful customer impact. For the past 10+ years, I've been driving that impact at startups—building products that have generated over $175M in revenue, scaled to 30M+ active users, and contributed to $12B+ in GMV
+              I&apos;m a New Jersey native and Rutgers grad who started my career in government, where I quickly became frustrated by the barriers to creating meaningful customer impact. For the past 10+ years, I&apos;ve been driving that impact at startups—building products that have generated over $175M in revenue, scaled to 30M+ active users, and contributed to $12B+ in GMV
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
               My work is guided by three core principles: be curious and kind, ship fast, learn faster and validate with data, not opinions.
