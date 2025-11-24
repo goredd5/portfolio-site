@@ -21,7 +21,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6">
-            Hi, I'm <span className="text-blue-400">Mike</span>
+            Hi, I&apos;m <span className="text-blue-400">Mike</span>
           </h1>
           <p className="text-xl sm:text-2xl text-gray-100 mb-8 max-w-3xl mx-auto">
             Experienced leader with 10+ years driving startup growth through strategic product development, team leadership, and data-driven decision-making.
@@ -66,7 +66,7 @@ export default function Home() {
                   Data Driven | Results Oriented
                 </h3>
                 <p className="text-lg text-gray-100">                
-                As a product leader, I strive to build a culture focused on driving measurable impact. When deciding what to work on, the highest-performing teams I've led start with clear goals, develop hypotheses grounded in user insights, and use A/B testing to validate our assumptions and track progress toward outcomes that matter.
+                As a product leader, I strive to build a culture focused on driving measurable impact. When deciding what to work on, the highest-performing teams I&apos;ve led start with clear goals, develop hypotheses grounded in user insights, and use A/B testing to validate our assumptions and track progress toward outcomes that matter.
                 </p>
               </div>
             </div>
@@ -106,7 +106,7 @@ export default function Home() {
                   Trust | Honesty
                 </h3>
                 <p className="text-lg text-gray-100">
-                  Strong teams are built on a foundation of trust and honesty. I believe everyone deserves to work in an environment where they can rely on open communication and integrity. Throughout my career, I've set this standard and held myself accountable to it—leading by example to create cultures where people feel safe to take risks, share feedback, and do their best work.
+                  Strong teams are built on a foundation of trust and honesty. I believe everyone deserves to work in an environment where they can rely on open communication and integrity. Throughout my career, I&apos;ve set this standard and held myself accountable to it—leading by example to create cultures where people feel safe to take risks, share feedback, and do their best work.
                 </p>
               </div>
             </div>
@@ -126,7 +126,7 @@ export default function Home() {
                   Communication | Alignment
                 </h3>
                 <p className="text-lg text-gray-100">
-                  Over 10+ years in product management, I've learned that even the best vision falls flat without clear communication and buy-in. I excel at and enjoy building alignment across cross-functional teams — translating product strategy into compelling narratives that inspire stakeholders, engineers, and designers to rally around a shared goal.  
+                  Over 10+ years in product management, I&apos;ve learned that even the best vision falls flat without clear communication and buy-in. I excel at and enjoy building alignment across cross-functional teams — translating product strategy into compelling narratives that inspire stakeholders, engineers, and designers to rally around a shared goal.
                 </p>
               </div>
             </div>
