@@ -1,11 +1,6 @@
-'use client';
-
-import { useState } from 'react';
-import ContactModal from '@/components/ContactModal';
+import { PageContactButton } from '@/components/ContactSection';
 
 export default function About() {
-  const [isContactOpen, setIsContactOpen] = useState(false);
-
   return (
     <main className="min-h-screen bg-white dark:bg-gray-900">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -251,16 +246,9 @@ export default function About() {
           <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
             Whether you&apos;re looking for strategic product leadership, technical expertise, or someone to help scale your organization, I&apos;d love to hear about your vision. Let&apos;s connect and explore how we can create impact together.
           </p>
-          <button
-            onClick={() => setIsContactOpen(true)}
-            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors"
-          >
-            Get In Touch
-          </button>
+          <PageContactButton />
         </section>
       </div>
-
-      <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
     </main>
   );
 }

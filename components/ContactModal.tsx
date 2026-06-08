@@ -105,7 +105,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             />
 
             <div className="mb-4">
-              <label htmlFor="name" className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+              <label htmlFor="name" className="block text-left text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
                 Name
               </label>
               <input
@@ -121,7 +121,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             </div>
 
             <div className="mb-4">
-              <label htmlFor="email" className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+              <label htmlFor="email" className="block text-left text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
                 Email
               </label>
               <input
@@ -137,7 +137,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             </div>
 
             <div className="mb-4">
-              <label htmlFor="subject" className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+              <label htmlFor="subject" className="block text-left text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
                 Subject
               </label>
               <input
@@ -153,7 +153,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             </div>
 
             <div className="mb-6">
-              <label htmlFor="message" className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+              <label htmlFor="message" className="block text-left text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
                 Message
               </label>
               <textarea

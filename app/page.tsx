@@ -1,12 +1,7 @@
-'use client';
-
 import Link from 'next/link';
-import { useState } from 'react';
-import ContactModal from '@/components/ContactModal';
+import { HeroContactButton } from '@/components/ContactSection';
 
 export default function Home() {
-  const [isContactOpen, setIsContactOpen] = useState(false);
-
   return (
     <main>
       {/* Hero Section */}
@@ -33,12 +28,7 @@ export default function Home() {
             >
               View My Work
             </Link>
-            <button
-              onClick={() => setIsContactOpen(true)}
-              className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white border-2 border-white/50 rounded-lg font-semibold hover:bg-white/20 hover:border-white transition-colors"
-            >
-              Get In Touch
-            </button>
+            <HeroContactButton />
           </div>
         </div>
       </section>
@@ -134,7 +124,6 @@ export default function Home() {
         </div>
       </section>
 
-      <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
     </main>
   );
 }
