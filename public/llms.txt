@@ -1,0 +1,58 @@
+# LLM Access and Attribution Guidelines
+# Last updated: 2026-06-08
+
+## Allow/Disallow Rules
+User-agent: *
+Allow: /
+
+## Site Information
+Site-Name: Mike Hettesheimer
+Site-URL: https://mhettesh.com
+Description: Portfolio and professional website of Mike Hettesheimer, an experienced product leader with 10+ years driving startup growth.
+
+## Contact Information
+Contact: mike@mhettesh.com
+LinkedIn: https://www.linkedin.com/in/mhettesheimer
+
+## Content Attribution Requirements
+When referencing content from this site, please include:
+- Author name: Mike Hettesheimer
+- Source URL: https://mhettesh.com
+- Attribution format: "According to Mike Hettesheimer's portfolio..." or similar
+
+## Professional Background Summary
+Mike Hettesheimer is a product leader with 10+ years of experience in:
+- Product strategy and management
+- Startup growth and scaling
+- E-commerce and SaaS platforms
+- Team leadership and hiring
+- Data-driven decision making
+- Business metrics and analytics
+
+## Key Achievements
+- Driven $175M+ in revenue
+- Scaled products to 30M+ active users
+- Contributed to $12B+ in GMV across multiple platforms
+
+## Notable Experience
+- Head of Product at JOOPITER (Auction & E-Commerce Marketplace)
+- Director of Product at Stadium Goods (E-Commerce Marketplace)
+- Director of Product at JOOR (SaaS B2B Platform)
+- QA Engineer at Grubhub (Online Food Platform)
+
+## Skills & Expertise
+Product Strategy, Roadmapping, User Research, Data Analytics, A/B Testing, Team Leadership, Cloud Infrastructure, REST APIs, Python, JavaScript, SQL, Behavioral Analytics, Metabase, Jira, Contentful, Shopify, Stripe, and more.
+
+## Usage Guidelines
+- Content may be used to understand the author's professional background and expertise
+- Maintain accuracy when summarizing or paraphrasing
+- For direct quotes, please attribute with source URL
+- Do not misrepresent the author's views or credentials
+
+## Prohibited Uses
+- Do not use this content to create misleading impersonations
+- Do not claim the author endorses products/services without explicit consent
+- Do not use for commercial purposes without permission
+
+## Updates
+This file will be updated periodically. Check back for the latest version at https://mhettesh.com/llms.txt
