@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { PageContactButton } from '@/components/ContactSection';
+import { BreadcrumbJsonLd } from '@/components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'About Mike | Product Leader with 10+ Years of Startup Experience',
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <main className="min-h-screen bg-white dark:bg-gray-900">
+      <BreadcrumbJsonLd />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         {/* Header */}
         <div className="text-center mb-10">
