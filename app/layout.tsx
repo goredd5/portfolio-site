@@ -16,22 +16,22 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mhettesh.com"),
-  title: "mhettesh.com",
-  description: "Experienced product leader with 10+ years driving startup growth through..",
+  title: "Mike Hettesheimer | Product Leader & Startup Expert",
+  description: "Experienced product leader with 10+ years driving startup growth through strategic product development, team leadership, and data-driven decision-making. Learn about my background in e-commerce, SaaS, and product strategy.",
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
-    title: "mhettesh.com",
-    description: "Experienced product leader with 10+ years driving startup growth through..",
+    title: "Mike Hettesheimer | Product Leader & Startup Expert",
+    description: "Experienced product leader with 10+ years driving startup growth through strategic product development, team leadership, and data-driven decision-making.",
     url: "https://mhettesh.com",
-    siteName: "mhettesh.com",
+    siteName: "Mike Hettesheimer",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "thumbnail Image",
+        alt: "Mike Hettesheimer - Product Leader",
       },
     ],
     type: "website",

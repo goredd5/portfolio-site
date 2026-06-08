@@ -1,4 +1,16 @@
+import type { Metadata } from 'next';
 import { PageContactButton } from '@/components/ContactSection';
+
+export const metadata: Metadata = {
+  title: 'About Mike | Product Leader with 10+ Years of Startup Experience',
+  description: 'Discover my background in product management, leadership, and startup growth. I have driven $175M+ in revenue, scaled to 30M+ users, and contributed to $12B+ in GMV across e-commerce and SaaS platforms.',
+  openGraph: {
+    title: 'About Mike | Product Leader with 10+ Years Experience',
+    description: 'Learn about my background in product management and startup leadership. Expertise in product strategy, data analytics, team leadership, and scaling e-commerce & SaaS platforms.',
+    url: 'https://mhettesh.com/about',
+    type: 'profile',
+  },
+};
 
 export default function About() {
   return (
