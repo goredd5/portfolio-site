@@ -15,6 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mhettesh.com"),
   title: "mhettesh.com",
   description: "Experienced product leader with 10+ years driving startup growth through..",
   icons: {
