@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import { PersonJsonLd, WebsiteJsonLd } from "@/components/JsonLd";
 
 const geistSans = localFont({
@@ -37,6 +38,9 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
+  alternates: {
+    canonical: "https://mhettesh.com",
+  },
 };
 
 export default function RootLayout({
@@ -47,14 +51,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="preload" as="image" href="/images/hero/199820010016.jpg" />
         <PersonJsonLd />
         <WebsiteJsonLd />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
         <Navigation />
-        {children}
+        <div className="flex-1">
+          {children}
+        </div>
+        <Footer />
       </body>
     </html>
   );

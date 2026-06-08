@@ -1,20 +1,13 @@
 import Link from 'next/link';
 import { HeroContactButton } from '@/components/ContactSection';
+import { HeroImage } from '@/components/HeroImage';
 
 export default function Home() {
   return (
     <main>
       {/* Hero Section */}
-      <section
-        className="relative min-h-[70vh] flex items-center justify-center"
-        style={{
-          backgroundImage: 'url(/images/hero/199820010016.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="absolute inset-0 bg-black/60"></div>
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+      <HeroImage>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6">
             Hi, I&apos;m <span className="text-blue-400">Mike</span>
           </h1>
@@ -31,7 +24,7 @@ export default function Home() {
             <HeroContactButton />
           </div>
         </div>
-      </section>
+      </HeroImage>
 
       {/* Skills Section */}
       <section className="py-10 bg-white dark:bg-gray-900">
@@ -49,6 +42,7 @@ export default function Home() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
+              aria-label="Data Driven Results Oriented - Product Strategy"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/40"></div>
               <div className="relative z-10 max-w-2xl">
@@ -61,7 +55,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Ownership | Poitive Impact - Title Left */}
+            {/* Ownership | Positive Impact - Title Left */}
             <div
               className="relative p-8 rounded-lg overflow-hidden min-h-[300px] flex items-center justify-end"
               style={{
@@ -69,6 +63,7 @@ export default function Home() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
+              aria-label="Ownership Impact - Data Analytics"
             >
               <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/70 to-black/40"></div>
               <div className="relative z-10 max-w-2xl text-right">
@@ -89,6 +84,7 @@ export default function Home() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
+              aria-label="Trust Honesty - Team Leadership"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/40"></div>
               <div className="relative z-10 max-w-2xl">
@@ -109,6 +105,7 @@ export default function Home() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
+              aria-label="Communication Alignment - Professional Tools"
             >
               <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/70 to-black/40"></div>
               <div className="relative z-10 max-w-2xl text-right">

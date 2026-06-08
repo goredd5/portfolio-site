@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     url: 'https://mhettesh.com/about',
     type: 'profile',
   },
+  alternates: {
+    canonical: 'https://mhettesh.com/about',
+  },
 };
 
 export default function About() {
