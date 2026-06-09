@@ -53,7 +53,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preload" as="image" href="/images/hero/199820010016.jpg" />
         <link rel="preconnect" href="/" />
         <link rel="dns-prefetch" href="https://www.linkedin.com" />
         <link rel="dns-prefetch" href="https://www.github.com" />
