@@ -1,7 +1,8 @@
 'use client';
 
-import { useState } from 'react';
-import ContactModal from '@/components/ContactModal';
+import { lazy, Suspense, useState } from 'react';
+
+const ContactModal = lazy(() => import('@/components/ContactModal'));
 
 export function HeroContactButton() {
   const [isContactOpen, setIsContactOpen] = useState(false);
@@ -14,7 +15,9 @@ export function HeroContactButton() {
       >
         Get In Touch
       </button>
-      <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
+      <Suspense fallback={null}>
+        {isContactOpen && <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />}
+      </Suspense>
     </>
   );
 }
@@ -30,7 +33,9 @@ export function PageContactButton() {
       >
         Get In Touch
       </button>
-      <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
+      <Suspense fallback={null}>
+        {isContactOpen && <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />}
+      </Suspense>
     </>
   );
 }

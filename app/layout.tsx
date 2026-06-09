@@ -9,11 +9,13 @@ const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
+  display: "swap",
 });
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -52,6 +54,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="preload" as="image" href="/images/hero/199820010016.jpg" />
+        <link rel="dns-prefetch" href="https://www.linkedin.com" />
+        <link rel="dns-prefetch" href="https://www.github.com" />
         <PersonJsonLd />
         <WebsiteJsonLd />
       </head>
